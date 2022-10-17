@@ -25,11 +25,9 @@ export class Reporter {
     }
 
     public static renamejsonfile() {
-        console.log('Mitesh sdgsdgdsg');
 
         let fs = require('fs');
         const files = fs.readdirSync(jsonReports + "/");
-        console.log('Mitesh dkjhfgslakjgh' + files);
         fs.rename(jsonReports+'/' + files, jsonReports+'/cucumber_report.json', function(err) {
             if ( err ) console.log('ERROR: ' + err);
         });
