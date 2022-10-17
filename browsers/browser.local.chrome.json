@@ -1,0 +1,11 @@
+[
+    {
+        "browserName": "chrome",
+        "ChromeOptions": {
+            "args": [
+                "--test-type",
+                "--disable-features=NetworkService"
+            ]
+        }
+    }
+]
