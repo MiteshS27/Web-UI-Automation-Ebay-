@@ -14,24 +14,25 @@
 1. Clone\unzip the repository to a folder.
 
 2. Go to the folder and run following command from terminal/command prompt.
-npm install 
+
+        npm install 
 
 3. Run below command should download the chrome & gecko driver binaries locally.
 
-  npm run webdriver-update
+        npm run webdriver-update
 
 *** Notes - Sometimes you can get error when downloading resources from internet. If there is any failure please run this again
 
 4. The start your selenium server.  
-
-   npm run webdriver-start
+    
+         npm run webdriver-start
 
 5. The below command would create an output folder named 'typeScript' and transpile the .ts files to .js.
 
-     npm run build
+         npm run build
 
 6. Now Run the below command which will launch the Chrome Browser and will runs the scripts.   
 
-   npm test
+        npm test
 
 7. After the test - Go to  ../EBAY WEB AUTOMATION/reports/html folder and open "cucumber_reporter.html" report, to look at execution result.
